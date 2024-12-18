@@ -1,0 +1,36 @@
+{
+  "name": "code-craft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.9.4",
+    "@monaco-editor/react": "^4.6.0",
+    "convex": "^1.17.4",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.464.0",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "svix": "^1.44.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
